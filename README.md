@@ -4,8 +4,7 @@
 </div>
 
 ## :smiley_cat:  MeowShop - A cute website with 3D objects and animation!
-Check out the [live website](https://meowshop-yashi.vercel.app/)!
-(This is my "Tech Demo" assignment for CS732 at the University of Auckland)
+Check out the [live website](https://meowshop-yashi.vercel.app/)! This is my "Tech Demo" assignment for CS732 at the University of Auckland.
 
 **&nbsp;**
 
