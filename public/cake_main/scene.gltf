@@ -1,0 +1,415 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1235,
+      "max": [
+        1.4774113893508911,
+        -0.0013003945350646973,
+        1.4774113893508911
+      ],
+      "min": [
+        -1.4774115085601807,
+        -0.26180607080459595,
+        -1.4774116277694702
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14820,
+      "componentType": 5126,
+      "count": 1235,
+      "max": [
+        0.990091860294342,
+        1.0,
+        0.9900913834571838
+      ],
+      "min": [
+        -0.9900916218757629,
+        -1.0,
+        -0.9900919198989868
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1235,
+      "max": [
+        1.0,
+        0.9999999403953552
+      ],
+      "min": [
+        0.0,
+        5.960464477539063e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6648,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 29640,
+      "componentType": 5126,
+      "count": 9117,
+      "max": [
+        0.871924102306366,
+        0.7374699115753174,
+        0.8631627559661865
+      ],
+      "min": [
+        -0.6586031317710876,
+        -0.9771373867988586,
+        -0.8949220180511475
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 139044,
+      "componentType": 5126,
+      "count": 9117,
+      "max": [
+        0.9999487400054932,
+        0.9999075531959534,
+        0.9998100996017456
+      ],
+      "min": [
+        -0.9999904036521912,
+        -0.999988317489624,
+        -0.9984337687492371
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9117,
+      "max": [
+        0.9992390871047974,
+        0.9999315142631531,
+        0.9999746084213257,
+        1.0
+      ],
+      "min": [
+        -0.9998566508293152,
+        -0.9990134835243225,
+        -0.9997130036354065,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 9880,
+      "componentType": 5126,
+      "count": 9117,
+      "max": [
+        0.976993978023529,
+        0.9999290108680725
+      ],
+      "min": [
+        7.699999696342275e-05,
+        0.0001630000042496249
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 82816,
+      "componentType": 5126,
+      "count": 9117,
+      "max": [
+        0.976993978023529,
+        0.9999290108680725
+      ],
+      "min": [
+        7.699999696342275e-05,
+        0.0001630000042496249
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 26592,
+      "componentType": 5125,
+      "count": 48078,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Cakesburg Premium 3D Cake Shop (https://sketchfab.com/Viscom_Cakesburg)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/a-slice-of-chocolate-gateau-7aa1d48475374002bf914c5c243ea7eb",
+      "title": "A Slice Of Chocolate Gateau"
+    },
+    "generator": "Sketchfab-14.10.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 218904,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 155752,
+      "byteOffset": 218904,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 248448,
+      "byteOffset": 374656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 145872,
+      "byteOffset": 623104,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 768976,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Chocolate_Gateau_slice_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Chocolate_Gateau_slice_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Chocolate_Gateau_slice_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "07_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4832108618794708,
+          0.30335416685445277,
+          0.172122174706165,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.05333349587351123
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Chocolate_Gateau_slice",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Dish_07 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Chocolate_Gateau_slice_Chocolate_Gateau_slice_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        2.766251802444458,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.142312885969354e-16,
+        -2.766251802444458,
+        0.0,
+        0.0,
+        2.766251802444458,
+        6.142312885969354e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02539999969303608,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "A Slice Of Chocolate Gateau.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9999999403953552,
+        -1.192487960610027e-08,
+        0.0,
+        0.0,
+        1.192487960610027e-08,
+        -0.9999999403953552,
+        0.0,
+        0.0,
+        0.0,
+        1.836559420098638e-07,
+        1.0
+      ],
+      "name": "Dish"
+    },
+    {
+      "mesh": 0,
+      "name": "Dish_07 - Default_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.8739498993074746,
+        0.08624792236560788,
+        -0.4783020691864832,
+        0.0,
+        -0.48600409439456227,
+        -0.16198113616116294,
+        0.858814375613066,
+        0.0,
+        -0.003404957000718023,
+        0.9830175010728726,
+        0.18348024104046834,
+        0.0,
+        0.01923394203186035,
+        0.8582617044448853,
+        0.1506028175354004,
+        1.0
+      ],
+      "name": "Chocolate_Gateau_slice"
+    },
+    {
+      "mesh": 1,
+      "name": "Chocolate_Gateau_slice_Chocolate_Gateau_slice_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  cursor: url('/pinkcat.svg') 0 0, auto;
+  -webkit-user-select: none;  
+  -ms-user-select: none;  
+  user-select: none; 
+}
+html, body{
+  width:100%;
+}
+.cursor-pointer{
+  transition: all 0.1s ease-in-out;
+}
+.hash-span {
+  margin-top: -150px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.black-gradient {
+  background-color: rgba(0, 0, 0, 0.466)
+}
+ 
+
+/* canvas- styles */
+.canvas-loader {
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.1s infinite ease;
+  transform: translateZ(0);
+}
+
+@keyframes mulShdSpin {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #ffffff,
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
+      1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em #ffffff,
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.7), 1.75em 1.75em 0 0em #ffffff,
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.5),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.7), 0em 2.5em 0 0em #ffffff,
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em #ffffff,
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.5),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em #ffffff,
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+ 
+.ys-leftline{
+  position: relative;
+}
+
+.ys-leftline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width:1px;
+  background-color:rgba(255, 255, 255, 0.253);
+}
+
+.NeonText{
+  animation: flicker 3s infinite alternate;   
+  color:#e099df;
+}
+.NeonTextonHover{
+  transition: all 0.2s ease-out;
+}
+.NeonTextonHover:hover{
+  color:#e099df;
+  text-shadow:
+  0 0 4px #e099df,
+  0 0 19px #e099df,
+  0 0 150px #e099df1f;
+  transform: scale(1.02);
+}
+@keyframes flicker {
+    
+  0%,  53%, 100% {
+
+      text-shadow:
+      0 0 4px #e099df,
+      0 0 11px #e099df,
+      0 0 19px #e099df,
+      0 0 150px #e099df1f;
+  
+  }
+  
+  0%, 100% {        
+      text-shadow: none;
+  }    
+}
+
+.PriceText{
+  transition: transform .2s;
+  color:#e099df;
+
+}
+
+.PriceText:hover{
+  transform: scale(1.2);
+}
+
+
+.arrow {
+  margin-top:-5em;
+}
+
+.down {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 0.8em;
+  display:block;
+  height:0;
+
+  opacity:0.8;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+  border-top: 1em solid #e099df;
+}
+
+.NeonCard{
+  transition: all 0.3s ease-out;
+  background: rgb(255,223,236);
+  background: -moz-linear-gradient(135deg, rgba(255,223,236,0.9472163865546218) 0%, rgba(240,175,239,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(255,223,236,0.9472163865546218) 0%, rgba(240,175,239,1) 100%);
+  background: linear-gradient(135deg, rgba(255,223,236,0.9472163865546218) 0%, rgba(240,175,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffdfec",endColorstr="#f0afef",GradientType=1);
+}
+.NeonCard:hover{
+  box-shadow: 0px 3px 50px 0px #e099df !important;
+}
+
